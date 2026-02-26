@@ -1,5 +1,5 @@
 import "./ArticlesBlock.css";
-import artigoPDF from "./assets/AprendaKetArtigo - CTIC.pdf";
+import artigoPDF from "./assets/ArtigoAprendaKet___SBCCQ.pdf";
 import artigoCover from "./assets/aprenda-ket-cover.jpg.png";
 
 const articles = [
