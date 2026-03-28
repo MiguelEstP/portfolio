@@ -12,9 +12,8 @@
 }
 
 .articles-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 48px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
 }
 
 .article-item {

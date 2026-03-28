@@ -242,3 +242,55 @@ nav a {
   0%, 50%, 100% { opacity: 1; }
   25%, 75% { opacity: 0; }
 }
+
+/* ===== RESPONSIVIDADE GLOBAL ===== */
+
+@media (max-width: 1024px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text-content p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-inner {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    margin: 8px;
+  }
+
+  .section {
+    padding: 50px 16px;
+  }
+
+  .hero h1 {
+    font-size: clamp(28px, 8vw, 42px);
+  }
+
+  .about-photo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .hero-image {
+    max-width: 100%;
+  }
+}

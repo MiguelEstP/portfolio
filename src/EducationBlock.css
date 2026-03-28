@@ -43,3 +43,8 @@
   opacity: 0.95;
   max-width: 800px;
 }
+@media (max-width: 768px) {
+  .education-item h3 {
+    font-size: 1.3rem;
+  }
+}

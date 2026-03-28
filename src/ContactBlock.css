@@ -63,3 +63,9 @@
   transform: scale(1.03);
   box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
 }
+
+@media (max-width: 768px) {
+  .contact-block {
+    padding: 24px 16px;
+  }
+}
